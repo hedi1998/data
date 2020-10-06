@@ -1,0 +1,36 @@
+ALGORITHM sum
+VAR
+tab1 : ARRAY_OF INTEGER[20] of INTEGER = (10,1,5,7,6,19);
+tab2  : ARRAY_OF INTEGER[20] of INTEGER = (12,3,8,9,6,25);
+commun :INTEGER ;
+i ,c,x,sum : INTEGER;
+number : INTEGER
+BEGIN
+  
+    from i=0 to 10 do
+    BEGIN
+read(x);
+sum := 0;
+for c := 1 to x do
+ 
+begin
+ 
+read(N[c]);
+end;
+ 
+for c := 1 to x do
+ 
+sum := (N[c]) + sum;
+ 
+ 
+begin
+writeln(sum);
+end;
+readln;
+    END 
+    BEGIN 
+    if tab1 [i] = tab2[i] ; 
+    then 
+    commun = [i];
+    END
+END
